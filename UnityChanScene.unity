@@ -1610,7 +1610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44ab2162985edea42b43de129e38b79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1579165378}
   distance: 2.75
   height: 2.5
   heightDamping: 2
