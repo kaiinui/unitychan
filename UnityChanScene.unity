@@ -568,6 +568,7 @@ Transform:
   - {fileID: 2000807939}
   - {fileID: 2075222100}
   - {fileID: 1661664643}
+  - {fileID: 353846429}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!114 &156106155
@@ -1502,6 +1503,7 @@ GameObject:
   - 95: {fileID: 353846431}
   - 114: {fileID: 353846430}
   - 114: {fileID: 353846432}
+  - 114: {fileID: 353846433}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -1568,12 +1570,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 353846424}
-  m_LocalRotation: {x: -.00205280306, y: .992690146, z: -.109698661, w: .0502824932}
-  m_LocalPosition: {x: 31.9903202, y: 2.07202172, z: 114.758179}
-  m_LocalScale: {x: 1.08289719, y: 1.08289719, z: 1.08289719}
+  m_LocalRotation: {x: .147809416, y: 0, z: 0, w: .989015877}
+  m_LocalPosition: {x: -.0769557953, y: 1.30921018, z: -1.82695389}
+  m_LocalScale: {x: .541448534, y: .541448593, z: .541448534}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 156106154}
+  m_RootOrder: 6
 --- !u!114 &353846430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1605,17 +1607,35 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 353846424}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44ab2162985edea42b43de129e38b79e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1579165378}
+  target: {fileID: 2083981617}
   distance: 2.75
   height: 2.5
   heightDamping: 2
   rotationDamping: 0
   lookAtAngle: 0
+--- !u!114 &353846433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 353846424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ec2fe99d1108b9d0006a298d76c639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 0
+  sensitivityX: 15
+  sensitivityY: 15
+  minimumX: -360
+  maximumX: 360
+  minimumY: -60
+  maximumY: 60
 --- !u!1 &369338632
 GameObject:
   m_ObjectHideFlags: 0
@@ -4949,7 +4969,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1 &1290730798
 GameObject:
   m_ObjectHideFlags: 0
@@ -7066,7 +7086,7 @@ Transform:
   m_LocalScale: {x: .00999999978, y: .00999999978, z: .00999999978}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &1929904717
 GameObject:
   m_ObjectHideFlags: 0
